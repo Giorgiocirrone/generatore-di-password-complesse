@@ -1,0 +1,66 @@
+
+
+/*Css reset */
+*{
+
+    box-sizing: border-box;
+    margin:  0 ;
+    padding: 0;
+}
+#card{
+
+    border-radius: 20px;
+    display:  inline-block;
+}
+
+h1{
+    text-align:  center;
+}
+
+
+section{
+
+    max-width: 980px;
+    margin: 0 auto ;
+    border: 2px solid brown;
+    height: 500px;
+   
+}
+
+
+div{
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width:  300px;
+    height: 50px;
+    border: 2px solid black;
+  
+    line-height: 50px;
+    gap: 0px;
+    
+
+ 
+
+}
+
+
+button {
+
+    color:  white;
+    border-radius: 20px;
+    padding:5px 15px;
+    background-color: blue;
+    border: 1px solid blue;
+    
+    width: 150px;
+}
+
+
+#alto{
+
+    margin-top: 50px;
+}
+
+
