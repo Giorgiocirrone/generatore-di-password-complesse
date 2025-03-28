@@ -25,3 +25,10 @@
  */
 
 
+const lungehzzaPassword = document.getElementById('lunghezza');
+const caratteriMinuscoli = document.getElementById('caratteri-minuscoli');
+const caratteriMaiuscoli = document.getElementById('caratteri-maiuscoli');
+const caratteriNumerici = document.getElementById('caratteri-numerici');
+const caratteriSpeciali = document.getElementById('caratteri-speciali');
+const btnGenera = document.getElementById('btn-genera');
+const risultatoDiv = document.getElementById('risultato');
