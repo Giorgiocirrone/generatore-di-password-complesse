@@ -40,7 +40,41 @@ const risultatoDiv = document.getElementById('risultato');
 
 const listaCaratteriMaiuscoli = 'ABCDEFGHIJKLMNOPQRSTUVWXY';
 const listaCaratteriMinuscoli = 'abcdefghijklmnopqrstuvwxyz';
-const listaCarattriNumerici= '0123456789';
+const listaCarattriNumerici = '0123456789';
 const listaCaratteriSpeciali = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~)";
 
 
+btnGenera.addEventListener('click',generaPassword);
+
+function generaPassword() {
+
+    let stringaIniziale = '';
+    let risultato = '';
+    if (caratteriMaiuscoli.checked) {
+        stringaIniziale += listaCaratteriMaiuscoli;
+
+    }
+    if (caratteriMinuscoli.checked) {
+        stringaIniziale += listaCaratteriMinuscoli;
+    }
+    if (caratteriNumerici.checked) {
+        stringaIniziale += listaCarattriNumerici;
+    }
+
+    if (caratteriSpeciali.checked) {
+        stringaIniziale += listaCaratteriSpeciali;
+    }
+
+
+
+    for (let i = 0; i < lungehzzaPassword.value; i++) {
+        risultato += stringaIniziale.charAt(
+            Math.floor(Math.random() * stringaIniziale.length)
+        );
+
+
+        risultatoDiv.textContent = '';
+        risultatoDiv.textContent = risultato;
+
+    }
+}
