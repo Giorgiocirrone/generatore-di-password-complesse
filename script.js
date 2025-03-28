@@ -32,3 +32,15 @@ const caratteriNumerici = document.getElementById('caratteri-numerici');
 const caratteriSpeciali = document.getElementById('caratteri-speciali');
 const btnGenera = document.getElementById('btn-genera');
 const risultatoDiv = document.getElementById('risultato');
+
+/**
+ * Inizio indroduzione logica di stistema 
+ */
+
+
+const listaCaratteriMaiuscoli = 'ABCDEFGHIJKLMNOPQRSTUVWXY';
+const listaCaratteriMinuscoli = 'abcdefghijklmnopqrstuvwxyz';
+const listaCarattriNumerici= '0123456789';
+const listaCaratteriSpeciali = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~)";
+
+
